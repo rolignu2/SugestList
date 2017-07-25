@@ -4,7 +4,7 @@
   
    [![Build Status](https://secure.travis-ci.org/mde/timezone-js.png)](https://secure.travis-ci.org/mde/timezone-js)
 
-  ## Create a list of sugest or find some into string or big string .
+  ## It was never so easy to create a list of suggestions
   
  
  ```js
