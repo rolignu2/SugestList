@@ -4,7 +4,7 @@
   
    [![Build Status](https://secure.travis-ci.org/mde/timezone-js.png)](https://secure.travis-ci.org/mde/timezone-js)
 
-  ## Create a list of sugest or find some into a word.
+  ## Create a list of sugest or find some into string or big string .
   
  
    ```js
@@ -39,7 +39,20 @@
         
         **/
         
-        var result = sugest.sugest(sugest.Method.rec);
+	
+        var result = sugest.sugest(sugest.Method.rec); //selected a recursive method 
         
    
+    ```
+     ## sugest.Method 
+     
+     when create sugestJS includes some Methods to get the best time 
+     in this case has 3 methods :
+    
+    ```js
+    
+    	sugest.Mehod.non   // non recursive method , works fine less than 15,000 lines words equal 60,000 words 
+	sugest.Method.rec  // recursive method , its more faster than non method and works fine more than 25,000 lines or more 
+	sugest.Method.dyna // dynamic recursive method , its very fast , but only support less than 8,000 lines , but if reduce 8,000 in 			    // in one line and create partitions, this method is the best.
+    
     ```
