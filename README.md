@@ -51,8 +51,11 @@
     
     ```js
     
-    	sugest.Mehod.non   // non recursive method , works fine less than 15,000 lines words equal 60,000 words 
-	sugest.Method.rec  // recursive method , its more faster than non method and works fine more than 25,000 lines or more 
-	sugest.Method.dyna // dynamic recursive method , its very fast , but only support less than 8,000 lines , but if reduce 8,000 in 			    // in one line and create partitions, this method is the best.
+    	sugest.Mehod.non   	
+	// non recursive method , works fine less than 15,000 lines words equal 60,000 words 
+	sugest.Method.rec  
+	// recursive method , its more faster than non method and works fine more than 25,000 lines or more 
+	sugest.Method.dyna 
+	// dynamic recursive method , its very fast , but only support less than 8,000 lines , but if reduce 8,000 in 			   	 // in one line and create partitions, this method is the best.
     
     ```
